@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/dinesh-resume/static/css/main.7cd5aaef.chunk.css",
-    "main.js": "/dinesh-resume/static/js/main.de07bc65.chunk.js",
-    "main.js.map": "/dinesh-resume/static/js/main.de07bc65.chunk.js.map",
+    "main.css": "/dinesh-resume/static/css/main.32f3dfcb.chunk.css",
+    "main.js": "/dinesh-resume/static/js/main.57df61b5.chunk.js",
+    "main.js.map": "/dinesh-resume/static/js/main.57df61b5.chunk.js.map",
     "runtime-main.js": "/dinesh-resume/static/js/runtime-main.100f83ac.js",
     "runtime-main.js.map": "/dinesh-resume/static/js/runtime-main.100f83ac.js.map",
-    "static/js/2.ae0cb810.chunk.js": "/dinesh-resume/static/js/2.ae0cb810.chunk.js",
-    "static/js/2.ae0cb810.chunk.js.map": "/dinesh-resume/static/js/2.ae0cb810.chunk.js.map",
+    "static/js/2.d55d9cb3.chunk.js": "/dinesh-resume/static/js/2.d55d9cb3.chunk.js",
+    "static/js/2.d55d9cb3.chunk.js.map": "/dinesh-resume/static/js/2.d55d9cb3.chunk.js.map",
     "index.html": "/dinesh-resume/index.html",
-    "precache-manifest.18549f58807ec5016839d1e8fdaf177c.js": "/dinesh-resume/precache-manifest.18549f58807ec5016839d1e8fdaf177c.js",
+    "precache-manifest.9fa0467b14551a5e86c81d11b56b8e15.js": "/dinesh-resume/precache-manifest.9fa0467b14551a5e86c81d11b56b8e15.js",
     "service-worker.js": "/dinesh-resume/service-worker.js",
-    "static/css/main.7cd5aaef.chunk.css.map": "/dinesh-resume/static/css/main.7cd5aaef.chunk.css.map",
-    "static/js/2.ae0cb810.chunk.js.LICENSE.txt": "/dinesh-resume/static/js/2.ae0cb810.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/dinesh-resume/static/media/portfolio.33e34d51.jpg"
+    "static/css/main.32f3dfcb.chunk.css.map": "/dinesh-resume/static/css/main.32f3dfcb.chunk.css.map",
+    "static/js/2.d55d9cb3.chunk.js.LICENSE.txt": "/dinesh-resume/static/js/2.d55d9cb3.chunk.js.LICENSE.txt",
+    "static/media/_homeBanner.scss": "/dinesh-resume/static/media/portfolio.33e34d51.jpg",
+    "static/media/psg.png": "/dinesh-resume/static/media/psg.98750fc6.png",
+    "static/media/sns-logo.png": "/dinesh-resume/static/media/sns-logo.f3828bd1.png",
+    "static/media/thiagarajar-poly-tech.jpeg": "/dinesh-resume/static/media/thiagarajar-poly-tech.9d174f22.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.100f83ac.js",
-    "static/js/2.ae0cb810.chunk.js",
-    "static/css/main.7cd5aaef.chunk.css",
-    "static/js/main.de07bc65.chunk.js"
+    "static/js/2.d55d9cb3.chunk.js",
+    "static/css/main.32f3dfcb.chunk.css",
+    "static/js/main.57df61b5.chunk.js"
   ]
 }
