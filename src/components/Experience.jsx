@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaUserTie } from 'react-icons/fa';
+import PSGLogo from '../images/psg-logo.png';
+import SNSLogo from '../images/sns-logo.png';
 
 export default function Experience() {
     return (
@@ -10,7 +12,7 @@ export default function Experience() {
             <Container>
                 <Row>
                     <Col sm="12" md="2" className="img-column">
-                        <img src="../sns-logo.png" alt="Searchnscore Solutions" />
+                        <img src={SNSLogo} alt="Searchnscore Solutions" />
                     </Col>
                     <Col className="text-left" sm="12" md="10">
                         <h3>UI Developer</h3>
@@ -29,7 +31,7 @@ export default function Experience() {
             <Container>
                 <Row>
                     <Col sm="12" md="2" className="img-column">
-                        <img src="../psg-logo.png" alt="Searchnscore Solutions" />
+                        <img src={PSGLogo} alt="Searchnscore Solutions" />
                     </Col>
                     <Col className="text-left" sm="12" md="10">
                         <h3>Student Intern</h3>

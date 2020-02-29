@@ -1,0 +1,32 @@
+/* 
+Mixin scss
+*/
+$xtra-small-min: 30em;          // 480px
+$small-max: 40em;               // 640px
+$medium-min: 48em;              // 768px
+$large-min: 64em;               // 1024px
+$small-only: 39.9375em;         // 649px
+
+@mixin respond($media) {
+
+  @if $media == xsmall {
+    @media only screen and (min-width: $xtra-small-min) { @content; }
+  }
+
+  @else if $media == small {
+    @media only screen and (min-width: $small-max) { @content; }
+  }
+
+  @else if $media == medium {
+    @media only screen and (min-width: $medium-min){ @content; }
+  }
+
+  @else if $media == large {
+    @media only screen and (min-width: $large-min) { @content; }
+  }
+
+  @else if $media == small-only {
+      @media screen and (max-width: $small-only ) { @content; }
+  }
+  
+}

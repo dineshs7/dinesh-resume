@@ -15,7 +15,7 @@ code {
     monospace;
 }
 
-.home-banner, .about, .experience, .education, .skills {
+.about, .experience, .education, .skills {
   height: 100vh;
 }
 h2 {
@@ -43,36 +43,6 @@ h1, h2 {
 .logo {
   width: 5rem;
 }
-.home-banner {
-  background-image: linear-gradient( rgba(211,16,39, 0.1), #ea384d), url(./images/portfolio.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: #fff;
-}
-.home-banner h3, .home-banner h4 {
-  text-align: center;
-  font-weight: 300;
-}
-.home-banner img {
-  border-radius: 50%;
-  border: 0.5rem #fff solid;
-  transform: translate(25vh, 90vh);
-}
-.home-banner .social-links {
-  font-size: 1.5rem;
-  float: right;
-  transform: translate(-5vw, 52vh);
-}
-
-.social-links svg {
-  margin-left: 1.5rem;
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: #fff;
-}
-
 .footer-social-links svg {
   margin-left: 1.5rem;
   font-size: 1.5rem;

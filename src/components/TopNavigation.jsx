@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
+import HeaderNavigation from '../scss/_headerNavigation.scss';
 
 export default function TopNavigation() {
     return (

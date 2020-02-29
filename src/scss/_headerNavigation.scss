@@ -1,0 +1,27 @@
+/*
+Header Navigation
+*/
+@import './mixin';
+@import './variables';
+
+.top-navigation {
+    display: none;
+    margin: 2rem 5rem;
+    @include respond(large) {
+        display: block;
+    }
+    a {
+        color:$white;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin: 1rem;
+        text-decoration: none;
+        display: inline-block;
+        padding-bottom: 0.5rem;
+        transition: .35s border-bottom ease;
+        &:hover {
+            color: $red;
+            border-bottom: 0.2rem $white solid;
+        }
+    }
+}  

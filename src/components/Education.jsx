@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaUserGraduate } from 'react-icons/fa';
+import PSGLogo from '../images/psg.png';
+import TPTLogo from '../images/thiagarajar-poly-tech.jpeg';
 
 export default function Education() {
     return (
@@ -10,7 +12,7 @@ export default function Education() {
             <Container>
                 <Row>
                     <Col md="2" className="img-column">
-                        <img src="../psg.png" alt="Searchnscore Solutions"  className="logo"/>
+                        <img src={PSGLogo} alt="PSG College of Technology"  className="logo"/>
                     </Col>
                     <Col className="text-left" md="10">
                         <h3>PSG College of Technology</h3>
@@ -28,7 +30,7 @@ export default function Education() {
             <Container>
                 <Row>
                     <Col md="2" className="img-column">
-                        <img src="../thiagarajar-poly-tech.jpeg" alt="Searchnscore Solutions" className="logo"/>
+                        <img src={TPTLogo} alt="Thiagarajar Polytechnic College" className="logo"/>
                     </Col>
                     <Col className="text-left" md="10">
                         <h3>Thiagarajar Polytechnic College</h3>
