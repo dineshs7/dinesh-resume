@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dinesh-resume/static/css/main.7cd5aaef.chunk.css",
+    "main.js": "/dinesh-resume/static/js/main.de07bc65.chunk.js",
+    "main.js.map": "/dinesh-resume/static/js/main.de07bc65.chunk.js.map",
+    "runtime-main.js": "/dinesh-resume/static/js/runtime-main.100f83ac.js",
+    "runtime-main.js.map": "/dinesh-resume/static/js/runtime-main.100f83ac.js.map",
+    "static/js/2.ae0cb810.chunk.js": "/dinesh-resume/static/js/2.ae0cb810.chunk.js",
+    "static/js/2.ae0cb810.chunk.js.map": "/dinesh-resume/static/js/2.ae0cb810.chunk.js.map",
+    "index.html": "/dinesh-resume/index.html",
+    "precache-manifest.18549f58807ec5016839d1e8fdaf177c.js": "/dinesh-resume/precache-manifest.18549f58807ec5016839d1e8fdaf177c.js",
+    "service-worker.js": "/dinesh-resume/service-worker.js",
+    "static/css/main.7cd5aaef.chunk.css.map": "/dinesh-resume/static/css/main.7cd5aaef.chunk.css.map",
+    "static/js/2.ae0cb810.chunk.js.LICENSE.txt": "/dinesh-resume/static/js/2.ae0cb810.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/dinesh-resume/static/media/portfolio.33e34d51.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.100f83ac.js",
+    "static/js/2.ae0cb810.chunk.js",
+    "static/css/main.7cd5aaef.chunk.css",
+    "static/js/main.de07bc65.chunk.js"
+  ]
+}
