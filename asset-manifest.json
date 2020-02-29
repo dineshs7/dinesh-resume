@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/dinesh-resume/static/css/main.32f3dfcb.chunk.css",
-    "main.js": "/dinesh-resume/static/js/main.57df61b5.chunk.js",
-    "main.js.map": "/dinesh-resume/static/js/main.57df61b5.chunk.js.map",
+    "main.css": "/dinesh-resume/static/css/main.de1b96df.chunk.css",
+    "main.js": "/dinesh-resume/static/js/main.7b96166c.chunk.js",
+    "main.js.map": "/dinesh-resume/static/js/main.7b96166c.chunk.js.map",
     "runtime-main.js": "/dinesh-resume/static/js/runtime-main.100f83ac.js",
     "runtime-main.js.map": "/dinesh-resume/static/js/runtime-main.100f83ac.js.map",
-    "static/js/2.d55d9cb3.chunk.js": "/dinesh-resume/static/js/2.d55d9cb3.chunk.js",
-    "static/js/2.d55d9cb3.chunk.js.map": "/dinesh-resume/static/js/2.d55d9cb3.chunk.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/dinesh-resume/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.000ca013.chunk.js": "/dinesh-resume/static/js/2.000ca013.chunk.js",
+    "static/js/2.000ca013.chunk.js.map": "/dinesh-resume/static/js/2.000ca013.chunk.js.map",
     "index.html": "/dinesh-resume/index.html",
-    "precache-manifest.9fa0467b14551a5e86c81d11b56b8e15.js": "/dinesh-resume/precache-manifest.9fa0467b14551a5e86c81d11b56b8e15.js",
+    "precache-manifest.a0d712ea9fde46b67ca7e88bf2711f63.js": "/dinesh-resume/precache-manifest.a0d712ea9fde46b67ca7e88bf2711f63.js",
     "service-worker.js": "/dinesh-resume/service-worker.js",
-    "static/css/main.32f3dfcb.chunk.css.map": "/dinesh-resume/static/css/main.32f3dfcb.chunk.css.map",
-    "static/js/2.d55d9cb3.chunk.js.LICENSE.txt": "/dinesh-resume/static/js/2.d55d9cb3.chunk.js.LICENSE.txt",
-    "static/media/_homeBanner.scss": "/dinesh-resume/static/media/portfolio.33e34d51.jpg",
+    "static/css/2.47e06e2e.chunk.css.map": "/dinesh-resume/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.de1b96df.chunk.css.map": "/dinesh-resume/static/css/main.de1b96df.chunk.css.map",
+    "static/js/2.000ca013.chunk.js.LICENSE.txt": "/dinesh-resume/static/js/2.000ca013.chunk.js.LICENSE.txt",
+    "static/media/_index.scss": "/dinesh-resume/static/media/portfolio.33e34d51.jpg",
     "static/media/psg.png": "/dinesh-resume/static/media/psg.98750fc6.png",
     "static/media/sns-logo.png": "/dinesh-resume/static/media/sns-logo.f3828bd1.png",
     "static/media/thiagarajar-poly-tech.jpeg": "/dinesh-resume/static/media/thiagarajar-poly-tech.9d174f22.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.100f83ac.js",
-    "static/js/2.d55d9cb3.chunk.js",
-    "static/css/main.32f3dfcb.chunk.css",
-    "static/js/main.57df61b5.chunk.js"
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.000ca013.chunk.js",
+    "static/css/main.de1b96df.chunk.css",
+    "static/js/main.7b96166c.chunk.js"
   ]
 }
