@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dinesh-resume/static/css/main.37e6da1b.chunk.css",
-    "main.js": "/dinesh-resume/static/js/main.7b96166c.chunk.js",
-    "main.js.map": "/dinesh-resume/static/js/main.7b96166c.chunk.js.map",
+    "main.css": "/dinesh-resume/static/css/main.3bbe7af6.chunk.css",
+    "main.js": "/dinesh-resume/static/js/main.db5f538e.chunk.js",
+    "main.js.map": "/dinesh-resume/static/js/main.db5f538e.chunk.js.map",
     "runtime-main.js": "/dinesh-resume/static/js/runtime-main.100f83ac.js",
     "runtime-main.js.map": "/dinesh-resume/static/js/runtime-main.100f83ac.js.map",
     "static/css/2.47e06e2e.chunk.css": "/dinesh-resume/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.000ca013.chunk.js": "/dinesh-resume/static/js/2.000ca013.chunk.js",
-    "static/js/2.000ca013.chunk.js.map": "/dinesh-resume/static/js/2.000ca013.chunk.js.map",
+    "static/js/2.a7ca6a58.chunk.js": "/dinesh-resume/static/js/2.a7ca6a58.chunk.js",
+    "static/js/2.a7ca6a58.chunk.js.map": "/dinesh-resume/static/js/2.a7ca6a58.chunk.js.map",
     "index.html": "/dinesh-resume/index.html",
-    "precache-manifest.6e8b6ac091f9262aa2d5d07adc019992.js": "/dinesh-resume/precache-manifest.6e8b6ac091f9262aa2d5d07adc019992.js",
+    "precache-manifest.1e3183433584203b78fedddbaf301d71.js": "/dinesh-resume/precache-manifest.1e3183433584203b78fedddbaf301d71.js",
     "service-worker.js": "/dinesh-resume/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/dinesh-resume/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.37e6da1b.chunk.css.map": "/dinesh-resume/static/css/main.37e6da1b.chunk.css.map",
-    "static/js/2.000ca013.chunk.js.LICENSE.txt": "/dinesh-resume/static/js/2.000ca013.chunk.js.LICENSE.txt",
+    "static/css/main.3bbe7af6.chunk.css.map": "/dinesh-resume/static/css/main.3bbe7af6.chunk.css.map",
+    "static/js/2.a7ca6a58.chunk.js.LICENSE.txt": "/dinesh-resume/static/js/2.a7ca6a58.chunk.js.LICENSE.txt",
     "static/media/_index.scss": "/dinesh-resume/static/media/portfolio.33e34d51.jpg",
     "static/media/psg.png": "/dinesh-resume/static/media/psg.98750fc6.png",
     "static/media/sns-logo.png": "/dinesh-resume/static/media/sns-logo.f3828bd1.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.100f83ac.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.000ca013.chunk.js",
-    "static/css/main.37e6da1b.chunk.css",
-    "static/js/main.7b96166c.chunk.js"
+    "static/js/2.a7ca6a58.chunk.js",
+    "static/css/main.3bbe7af6.chunk.css",
+    "static/js/main.db5f538e.chunk.js"
   ]
 }
