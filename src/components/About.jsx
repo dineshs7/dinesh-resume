@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import '../scss/_about.scss';
 
 export default function About() {
     return (
         <Container fluid className="about">
             <Container>
                 <Row>
-                    <Col sm="12">
+                    <Col sm={12}>
                         Hi there,<br/><br/>
                         I'm really excited to introduce myself. 
                         I was born in a small village in Salem district, Tamilnadu in 1996.
@@ -26,7 +27,7 @@ export default function About() {
                     </Col>
                 </Row>
                 <Row className="objectives">
-                    <Col sm="12">
+                    <Col sm={12}>
                         <h4>OBJECTIVES</h4>
                         <ul>
                             <li>To help and contribute to the organization towards the goal.</li>
@@ -35,7 +36,7 @@ export default function About() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col sm="12" className="strengths">
+                    <Col sm={12} className="strengths">
                         <h4>STRENGTHS</h4>
                         <ul>
                             <li>Flexibility to deadlines</li>

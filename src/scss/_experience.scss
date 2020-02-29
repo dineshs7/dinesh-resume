@@ -1,0 +1,42 @@
+/*
+Experience section
+*/
+
+@import './mixin';
+@import './variables';
+
+.experience {
+    background: linear-gradient(to right bottom, rgba(211,16,39, 0.8), $red);
+    color: $white;
+    padding: 10vh 0;
+    height: auto;
+    clip-path: polygon(0 10vh, 0 100%, 100% 90vh, 100% 0);
+    @include respond(large) {
+        height: 100vh;
+        padding-bottom: 0;
+    }
+    img {
+        max-width: 100%;;
+    }
+    .text-left {
+        text-align: left;
+        border-bottom: 0.025vw $white solid;
+        padding: 2vw;
+        @include respond(large) {
+            border-bottom: 0.050rem $white solid;
+            padding: 1rem 0;
+        }
+        p {
+            margin-top: 2vw;
+            @include respond(large) {
+                margin-top: 1rem;
+            }
+        }
+    }
+    .img-column {
+        padding: 2vw;
+        @include respond(large) {
+            padding: 1rem 0;
+        }
+    }
+}

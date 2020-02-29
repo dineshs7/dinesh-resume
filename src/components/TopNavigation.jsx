@@ -1,5 +1,4 @@
 import React from 'react';
-import HeaderNavigation from '../scss/_headerNavigation.scss';
 
 export default function TopNavigation() {
     return (

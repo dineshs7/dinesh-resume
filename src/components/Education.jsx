@@ -11,10 +11,10 @@ export default function Education() {
             <h2><FaUserGraduate />&nbsp;Education</h2>
             <Container>
                 <Row>
-                    <Col md="2" className="img-column">
+                    <Col xs={3} md={2} className="img-column">
                         <img src={PSGLogo} alt="PSG College of Technology"  className="logo"/>
                     </Col>
-                    <Col className="text-left" md="10">
+                    <Col className="text-left" xs={9} md={10}>
                         <h3>PSG College of Technology</h3>
                         <h4>
                             Bachelor of Technology, Information Technology<br/>
@@ -29,10 +29,10 @@ export default function Education() {
             </Container>
             <Container>
                 <Row>
-                    <Col md="2" className="img-column">
+                    <Col xs={3} md={2} className="img-column">
                         <img src={TPTLogo} alt="Thiagarajar Polytechnic College" className="logo"/>
                     </Col>
-                    <Col className="text-left" md="10">
+                    <Col className="text-left" xs={9} md={10}>
                         <h3>Thiagarajar Polytechnic College</h3>
                         <h4>
                             Diploma in Computer Engineering<br/>

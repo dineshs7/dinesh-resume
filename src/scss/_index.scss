@@ -1,0 +1,56 @@
+/* Dependency import */
+@import './variables';
+@import './mixin';
+
+/* Styles import */
+@import './about';
+@import './font';
+@import './headerNavigation';
+@import './homeBanner';
+@import './experience';
+@import './education';
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 4vw;
+    margin: 0;
+    @include respond(large) {
+        font-size: 1rem;
+    }
+}
+h1 {
+    font-size: 10vw;
+    font-weight: 400;
+    @include respond(large) {
+        font-size: 4rem;
+    }
+}
+h2 {
+    font-size: 8vw;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4vw;
+    @include respond(large) {
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+}
+h3 {
+    font-size: 5vw;
+    @include respond(large) {
+        font-size: 2rem;
+    }
+}
+h4 {
+    font-size: 4vw;
+    @include respond(large) {
+        font-size: 1.5rem;
+    }
+}

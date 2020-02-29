@@ -11,10 +11,10 @@ export default function Experience() {
             <h2><FaUserTie />&nbsp;Experience</h2>
             <Container>
                 <Row>
-                    <Col sm="12" md="2" className="img-column">
+                    <Col xs={3} md={2} className="img-column">
                         <img src={SNSLogo} alt="Searchnscore Solutions" />
                     </Col>
-                    <Col className="text-left" sm="12" md="10">
+                    <Col className="text-left" xs={9} md={10}>
                         <h3>UI Developer</h3>
                         <h4>
                             SearchnScore Solution<br/>
@@ -30,10 +30,10 @@ export default function Experience() {
             </Container>
             <Container>
                 <Row>
-                    <Col sm="12" md="2" className="img-column">
+                    <Col xs={3} md={2} className="img-column">
                         <img src={PSGLogo} alt="Searchnscore Solutions" />
                     </Col>
-                    <Col className="text-left" sm="12" md="10">
+                    <Col className="text-left" xs={9} md={10}>
                         <h3>Student Intern</h3>
                         <h4>
                             PSG Software Technologies<br/>

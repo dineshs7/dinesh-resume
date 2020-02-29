@@ -9,7 +9,7 @@ export default function Skills() {
             <h2><FaCog />&nbsp;Skills</h2>
             <Container>
             <Row>
-                <Col lg="4">
+                <Col lg={4}>
                     <h5>Front-end Technologies</h5>
                     <ul>
                         <li><FaReact />&nbsp;React Js</li>
@@ -23,7 +23,7 @@ export default function Skills() {
                         <li>Responsive web design</li>
                     </ul>
                 </Col>
-                <Col lg="4">
+                <Col lg={4}>
                     <h5>Back-end Technologies</h5>
                     <ul>
                         <li><FaJs />&nbsp;Express Js</li>
@@ -32,7 +32,7 @@ export default function Skills() {
                         <li><FaSalesforce />&nbsp;Salesforce Commerce Cloud</li>
                     </ul>
                 </Col>
-                <Col lg="4">
+                <Col lg={4}>
                     <h5>Software Tools</h5>
                     <ul>
                         <li><FaSourcetree />&nbsp;Source Tree</li>

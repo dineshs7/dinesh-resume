@@ -21,43 +21,30 @@ Home Banner
             color: $black;
             transform: translateY(15vw);
         }
-        h1 {
-            @include respond(small-only) {
-                font-size: 8vw;
-                font-weight: 400;
-            }
-        }
     }
-    h3 {
-        font-size: 5vw;
-        @include respond(large) {
-            font-size: 2rem;
-        }
-    }
-    h4 {
-        font-size: 4vw;
-        @include respond(large) {
-            font-size: 1.5rem;
-        }
-    }
-    h3 ,h4 {
-        font-weight: 300;
+    h1, h3 ,h4 {
         text-align: center;
+    }
+    h3, h4 {
+        font-weight: 300;
     }
     img {
         border: 0.5rem $white solid;
         border-radius: 50%;
-        transform: translateX(18vw);
+        transform: translateX(17vw);
         @include respond(large) {
             transform: translate(25vh, 90vh);
         }
     }
     .social-links {
         font-size: 5vw;
-        transform: translate(71vw,-45vw);
+        //transform: translate(71vw,-45vw);
+        display: none;
         @include respond(large) {
+            display: block;
             font-size: 1.5rem;
             transform: translate(-5vw, 52vh);
+            float: right;
         }
         svg {
             font-size: 5vw;

@@ -1,0 +1,44 @@
+/*
+About Section
+*/
+
+@import './mixin';
+@import './variables';
+
+.about {
+    height: auto;
+    padding-top: 33vh;
+    @include respond(large) {
+        height: 100vh;
+        padding-top: 15vh;
+    }
+    .objectives, .strengths {
+        margin-top: 7vw;
+        @include respond(large) {
+            margin-top: 1.5rem;
+        }
+        ul {
+            @include respond(small-only) {
+                padding-left: 1vw;
+            }
+            li {
+                list-style-type: none;
+                position: relative;
+                padding-left: 6vw;
+                @include respond(large) {
+                    padding-left: 1.5rem;
+                }
+                &::before {
+                    content: '\002A';
+                    font-size: 2rem;
+                    font-weight: 500;
+                    color: $red;
+                    position: absolute;
+                    left: 0;
+                    top: -0.5rem;
+                }
+            }
+        }
+    }
+}
+  
