@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,138 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.home-banner, .about, .experience, .education, .skills {
+  height: 100vh;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+h1 {
+  font-size: 4rem;
+}
+h1, h2 {
+  text-align: center;
+  font-weight: 400;
+}
+.text-left {
+  text-align: left;
+  border-bottom: 0.050rem #fff solid;
+}
+.text-left, .img-column {
+  padding: 1rem 0;
+}
+.text-left p {
+  margin-top: 1rem;
+}
+.logo {
+  width: 5rem;
+}
+.home-banner {
+  background-image: linear-gradient( rgba(211,16,39, 0.1), #ea384d), url(./images/portfolio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+}
+.home-banner h3, .home-banner h4 {
+  text-align: center;
+  font-weight: 300;
+}
+.home-banner img {
+  border-radius: 50%;
+  border: 0.5rem #fff solid;
+  transform: translate(25vh, 90vh);
+}
+.home-banner .social-links {
+  font-size: 1.5rem;
+  float: right;
+  transform: translate(-5vw, 52vh);
+}
+
+.social-links svg {
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.footer-social-links svg {
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  color: #ea384d;
+}
+
+.top-navigation, .footer-navigation {
+  float: right;
+  margin: 2rem 5rem;
+}
+.top-navigation a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+.top-navigation a , .footer-navigation a { 
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  transition: .35s border-bottom ease;
+}
+
+.top-navigation a:hover {
+  color: #ea384d;
+  border-bottom: 0.2rem #fff solid;
+}
+
+.footer-navigation a {
+  text-decoration: underline;
+  color: #ea384d;
+  margin: 0.4rem;
+}
+
+.experience, .skills {
+  background: linear-gradient(to right bottom, rgba(211,16,39, 0.8), #ea384d);
+  color: #fff;
+  padding-top: 10vh;
+  clip-path: polygon(0 10vh, 0 100%, 100% 90vh, 100% 0);
+}
+.education {
+  padding-top: 10vh;
+  clip-path: polygon(0 0, 0 90vh, 100% 100%, 100% 10vh);
+}
+.about {
+  padding-top:  15vh;
+}
+.skills ul li {
+  list-style-type: none;
+  margin: 1.5rem 0;
+}
+.skills ul {
+  padding-left: 0;
+}
+.skills {
+  text-transform: uppercase;
+}
+
+.objectives, .strengths {
+  margin-top: 1.5rem;
+}
+.objectives ul li, .strengths ul li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+.objectives ul li::before, .strengths ul li::before {
+  content: '\002A';
+  color: #ea384d;
+  font-size: 2rem;
+  font-weight: 500;
+  position: absolute;
+  left: 0;
+  top: -0.5rem;
 }
