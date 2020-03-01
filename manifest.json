@@ -1,6 +1,6 @@
 {
   "short_name": "Dinesh Resume",
-  "name": "Dinesh Resume application",
+  "name": "Dinesh Resume",
   "icons": [
     {
       "src": "tie.png",
@@ -16,5 +16,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ea384d"
 }
