@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaCog, FaReact, FaJs, FaHtml5, FaCss3, FaBootstrap, FaNodeJs, FaDatabase, FaBitbucket, FaSourcetree, FaJira, FaUserCog, FaSalesforce, FaSass } from 'react-icons/fa';
+import { FaCog, FaReact, FaJs, FaHtml5, FaCss3, FaBootstrap, FaNodeJs, FaDatabase, FaBitbucket, FaSourcetree, FaJira, FaUserCog, FaSalesforce, FaSass, FaDesktop } from 'react-icons/fa';
 
 export default function Skills() {
     return (
@@ -18,9 +18,7 @@ export default function Skills() {
                         <li><FaCss3 />&nbsp;CSS3</li>
                         <li><FaBootstrap />&nbsp;Bootstrap3</li>
                         <li><FaSass />&nbsp;SASS</li>
-                        <li>JSON</li>
-                        <li>AJAX</li>
-                        <li>Responsive web design</li>
+                        <li><FaDesktop />&nbsp;Responsive web design</li>
                     </ul>
                 </Col>
                 <Col lg={4}>

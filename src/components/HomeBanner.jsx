@@ -2,14 +2,12 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { FaLinkedin, FaEnvelope, FaPhone } from 'react-icons/fa';
 import TopNavigation from './TopNavigation';
-import dinesh from '../images/dinesh.jpeg';
 
 export default function HomeBanner() {
     return (
         <Container fluid className="home-banner">
             <TopNavigation />
                 <div class="profile">
-                    <img src={dinesh} alt="Me smiling" id="about"/>
                     <h1>Dinesh Selvam</h1>
                     <h3>UI Developer at SearchnScore Solutions</h3>
                     <h4>Coimbatore, Tamilnadu, India</h4>

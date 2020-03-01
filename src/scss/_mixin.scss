@@ -5,7 +5,8 @@ $xtra-small-min: 30em;          // 480px
 $small-max: 40em;               // 640px
 $medium-min: 48em;              // 768px
 $large-min: 64em;               // 1024px
-$small-only: 39.9375em;         // 649px
+$small-only: 39.9375em;         // 639px
+$small-landscape: 47.938em;     // 767px
 
 @mixin respond($media) {
 
@@ -28,5 +29,9 @@ $small-only: 39.9375em;         // 649px
   @else if $media == small-only {
       @media screen and (max-width: $small-only ) { @content; }
   }
+
+  @else if $media == small-landscape {
+    @media only screen and (max-width: $small-landscape ) and (orientation: landscape) { @content; }
+}
   
 }

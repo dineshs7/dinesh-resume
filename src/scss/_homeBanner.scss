@@ -8,18 +8,29 @@ Home Banner
 .home-banner {
     color: $white;
     height: 25vh;
-    background-image: linear-gradient( rgba(211,16,39, 0.1),$red), url("../images/portfolio.jpg");
+    background-image: url("../images/portfolio.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    @include respond(large) {
+    @include respond(small) {
         height: 100vh;
+    }
+    @include respond(medium) {
         background-attachment: fixed;
     }
     .profile {
         @include respond(small-only) {
             color: $black;
-            transform: translateY(15vw);
+            transform: translateY(77vw);
+        }
+        @include respond(small-landscape) {
+            transform: translate(1vw, 16vw);
+        }
+        @include respond(medium) {
+            transform: translateY(60vw);
+        }
+        @include respond(large) {
+            transform: translateY(45vh);
         }
     }
     h1, h3 ,h4 {
@@ -28,29 +39,34 @@ Home Banner
     h3, h4 {
         font-weight: 300;
     }
-    img {
-        border: 0.5rem $white solid;
-        border-radius: 50%;
-        transform: translateX(17vw);
-        @include respond(large) {
-            transform: translate(25vh, 90vh);
-        }
-    }
     .social-links {
-        font-size: 5vw;
-        //transform: translate(71vw,-45vw);
         display: none;
-        @include respond(large) {
+        @include respond(small-landscape) {
+            font-size: 3vw;
+            width: 40vw;
             display: block;
+            transform: translate(55vw,45vh);
+        }
+        @include respond(medium) {
+            display: block;
+            font-size: 2vw;
+            transform: translate(62vw, 81vh);
+            width: 35vw;
+        }
+        @include respond(large) {
             font-size: 1.5rem;
-            transform: translate(-5vw, 52vh);
+            width: auto;
+            transform: translate(-5vw, 70vh);
             float: right;
         }
         svg {
-            font-size: 5vw;
+            font-size: 3vw;
             font-weight: 400;
             color: $white;
             margin-left: 2vw;
+            @include respond(medium) {
+                font-size: 3vw;
+            }
             @include respond(large) {
                 font-size: 1.5rem;
                 margin-left: 1.5rem;

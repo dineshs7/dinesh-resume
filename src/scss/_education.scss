@@ -6,5 +6,34 @@ Education section
 @import './variables';
 
 .education {
-    padding-top: 10vh;
-  }
+    padding: 4vh 0;
+    height: auto;
+    @include respond(large) {
+        height: 100vh;
+        padding-bottom: 0;
+    }
+    img {
+        max-width: 100%;;
+    }
+    .text-left {
+        text-align: left;
+        border-bottom: 0.025vw $black solid;
+        padding: 2vw;
+        @include respond(large) {
+            border-bottom: 0.050rem $black solid;
+            padding: 1rem 0;
+        }
+        p {
+            margin-top: 2vw;
+            @include respond(large) {
+                margin-top: 1rem;
+            }
+        }
+    }
+    .img-column {
+        padding: 2vw;
+        @include respond(large) {
+            padding: 1rem 0;
+        }
+    }
+}

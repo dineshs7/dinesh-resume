@@ -7,13 +7,38 @@ About Section
 
 .about {
     height: auto;
-    padding-top: 33vh;
+    padding-top: 7vh;
+    @include respond(medium) {
+        padding-top: 0;
+    }
     @include respond(large) {
+        padding-top: 5vh;
         height: 100vh;
-        padding-top: 15vh;
+    }
+    img {
+        border: 1.8vw $white solid;
+        border-radius: 50%;
+        transform: translate(15vw,-41vw);
+        @include respond(small) {
+            border: 1.2vw $white solid;
+            transform: translate(-1vw, -1vw);
+        }
+        @include respond(medium) {
+            transform: translate(-1vw, 1vw);
+        }
+        @include respond(large) {
+            border: 0.5rem $white solid;
+            transform: translateX(-2vh);
+        }
     }
     .objectives, .strengths {
         margin-top: 7vw;
+        @include respond(small) {
+            margin-top: 5vw;
+        }
+        @include respond(medium) {
+            margin-top: 4vw;
+        }
         @include respond(large) {
             margin-top: 1.5rem;
         }
@@ -25,17 +50,31 @@ About Section
                 list-style-type: none;
                 position: relative;
                 padding-left: 6vw;
+                @include respond(medium) {
+                    padding-left: 3vw;
+                }
                 @include respond(large) {
                     padding-left: 1.5rem;
                 }
                 &::before {
                     content: '\002A';
-                    font-size: 2rem;
+                    font-size: 7vw;              
                     font-weight: 500;
                     color: $red;
                     position: absolute;
                     left: 0;
-                    top: -0.5rem;
+                    top: -1.5vw;
+                    @include respond(small-landscape) {
+                        font-size: 6vw;
+                    }
+                    @include respond(medium) {
+                        font-size: 3vw;
+                        top: -0.4vw;
+                    }
+                    @include respond(large) {
+                        font-size: 2rem;
+                        top: -0.5rem;
+                    }
                 }
             }
         }

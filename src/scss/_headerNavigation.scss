@@ -6,23 +6,43 @@ Header Navigation
 
 .top-navigation {
     display: none;
-    margin: 2rem 5rem;
-    float: right;
-    @include respond(large) {
+    @include respond(small) {
+        text-align: right;
+        padding: 2vw 3vw 2vw 0;
+        width: 100vw;
         display: block;
+        background-color: $red;
+        position: fixed;
+        right: 0;
+        z-index: 1;
+        box-shadow: 0.02rem 0 0.2rem $black;
+    }
+    @include respond(medium) {
+        margin: 0;
+    }
+    @include respond(large) {
+        padding: 0.3rem 6rem 0.3rem 0;
     }
     a {
         color:$white;
-        font-size: 1.5rem;
-        font-weight: 400;
-        margin: 1rem;
-        text-decoration: none;
-        display: inline-block;
-        padding-bottom: 0.5rem;
-        transition: .35s border-bottom ease;
+        @include respond(small) {
+            font-size: 3vw;
+            font-weight: 400;
+            margin: 2vw;
+            border-bottom: 0.2rem $red solid;
+        }
+        @include respond(large) {
+            font-size: 1.5rem;
+            margin: 1rem;
+            text-decoration: none;
+            display: inline-block;
+            transition: .35s border-bottom ease;
+        }
         &:hover {
-            color: $red;
-            border-bottom: 0.2rem $white solid;
+            @include respond(large) {
+                color: $white;
+                border-bottom: 0.2rem $white solid;
+            }
         }
     }
 }  

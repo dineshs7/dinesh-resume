@@ -1,13 +1,15 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../scss/_about.scss';
+import dinesh from '../images/dinesh.jpeg';
 
 export default function About() {
     return (
-        <Container fluid className="about">
+        <Container fluid className="about" id="about">
             <Container>
                 <Row>
                     <Col sm={12}>
+                    <img src={dinesh} alt="Me smiling"/>< br/>
                         Hi there,<br/><br/>
                         I'm really excited to introduce myself. 
                         I was born in a small village in Salem district, Tamilnadu in 1996.
