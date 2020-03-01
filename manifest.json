@@ -3,13 +3,13 @@
   "name": "Dinesh Resume application",
   "icons": [
     {
-      "src": "portfolio.jpg",
-      "type": "image/jpg",
+      "src": "tie.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "portfolio.jpg",
-      "type": "image/jpg",
+      "src": "tie.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
