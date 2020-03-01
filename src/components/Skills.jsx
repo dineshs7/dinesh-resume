@@ -4,8 +4,7 @@ import { FaCog, FaReact, FaJs, FaHtml5, FaCss3, FaBootstrap, FaNodeJs, FaDatabas
 
 export default function Skills() {
     return (
-        <Container fluid className="skills">
-            <a href="#" id="skills" />
+        <Container fluid className="skills" id="skills">
             <h2><FaCog />&nbsp;Skills</h2>
             <Container>
             <Row>

@@ -6,8 +6,7 @@ import TPTLogo from '../images/thiagarajar-poly-tech.jpeg';
 
 export default function Education() {
     return (
-        <Container fluid className="education">
-            <a href="#" id="education" />
+        <Container fluid className="education" id="education">
             <h2><FaUserGraduate />&nbsp;Education</h2>
             <Container>
                 <Row>

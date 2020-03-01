@@ -5,7 +5,9 @@ export default function TopNavigation() {
         <div className="top-navigation">
             <a href="#about">About Me</a>
             <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
             <a href="#education">Education</a>
+            <a href="#Accomplishment">Accomplishment</a>
             <a href="#skills">Skills</a>
         </div>
     )

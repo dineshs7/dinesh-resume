@@ -21,7 +21,7 @@ Home Banner
     .profile {
         @include respond(small-only) {
             color: $black;
-            transform: translateY(77vw);
+            transform: translateY(80vw);
         }
         @include respond(small-landscape) {
             transform: translate(1vw, 16vw);

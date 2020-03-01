@@ -6,8 +6,7 @@ import SNSLogo from '../images/sns-logo.png';
 
 export default function Experience() {
     return (
-        <Container fluid className="experience">
-            <a href="#" id="experience" />
+        <Container fluid className="experience" id="experience">
             <h2><FaUserTie />&nbsp;Experience</h2>
             <Container>
                 <Row>
