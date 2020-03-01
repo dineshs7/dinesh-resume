@@ -3,12 +3,12 @@
   "name": "Dinesh Resume",
   "icons": [
     {
-      "src": "tie.png",
+      "src": "man.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "tie.png",
+      "src": "man.png",
       "type": "image/png",
       "sizes": "512x512"
     }
