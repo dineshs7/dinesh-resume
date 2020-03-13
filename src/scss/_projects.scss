@@ -9,7 +9,6 @@ Project section
     color: $white;
     padding: 10vh 0 12vh;
     height: auto;
-    clip-path: polygon(0 10vh, 0 100%, 100% 92vh, 100% 0);
     @include respond(small-landscape) {
         padding: 10vh 0 14vh;
         clip-path: polygon(0 10vh, 0 100%, 100% 202vh, 100% 0);

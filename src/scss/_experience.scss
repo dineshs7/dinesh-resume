@@ -10,7 +10,6 @@ Experience section
     color: $white;
     padding: 10vh 0 12vh;
     height: auto;
-    clip-path: polygon(0 10vh, 0 100%, 100% 92vh, 100% 0);
     @include respond(xsmall) {
         padding: 10vh 0 15vh;
         clip-path: polygon(0 10vh, 0 100%, 100% 255vh, 100% 0);

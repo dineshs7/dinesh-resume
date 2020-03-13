@@ -15,7 +15,6 @@ export default function About() {
                             <h3>UI Developer at SearchnScore Solutions</h3>
                             <h4>Coimbatore, Tamilnadu, India</h4>
                             </div>
-                            <br/><br/>
                             <p>Hi there,<br/><br/>
                             I'm really excited to introduce myself. 
                             I was born in a small village in Salem district, Tamilnadu in 1996.

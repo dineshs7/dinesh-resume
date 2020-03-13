@@ -17,10 +17,8 @@ Footer section
 .footer-navigation {
     text-align: center;
     max-width: 100vw;
-    height: 20vh;
-    padding-top: 20vw;
+    padding: 10vw;
     background: linear-gradient(to right bottom, rgba(211,16,39, 0.8), $red);
-    clip-path: polygon(0 10vh, 0 100%, 100% 100%, 100% 0);
     @include respond(xsmall) {
         padding-top: 15vw;
         height: auto;
