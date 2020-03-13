@@ -5,19 +5,11 @@ Skills section
 @import './variables';
 
 .skills {
-    color: $white;
     text-transform: uppercase;
     height: auto;
-    background: linear-gradient(to right bottom, rgba(211,16,39, 0.8), $red);
-    padding-top: 10vh;
-    padding-bottom: 4vh;
-    clip-path: polygon(0 10vh, 0 100%, 100% 92vh, 100% 0);
-    @include respond(small-landscape) {
-        clip-path: polygon(0 10vh, 0 100%, 100% 218vh, 100% 0);
-    }
+    padding: 4vh 0;
     @include respond(large) {
         height: 100vh;
-        clip-path: polygon(0 10vh, 0 100%, 100% 90vh, 100% 0);
         padding-bottom: 0;
     }
     ul {
@@ -27,6 +19,15 @@ Skills section
             margin: 1.5vw 0;
             @include respond(large) {
                 margin: 1.5rem 0;
+            }
+            svg {
+                color: $red;
+            }
+            span {
+                padding: 1rem;
+                svg {
+                    margin: 0.5rem;
+                } 
             }
         }
     }

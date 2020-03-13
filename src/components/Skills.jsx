@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaCog, FaReact, FaJs, FaHtml5, FaCss3, FaBootstrap, FaNodeJs, FaDatabase, FaBitbucket, FaSourcetree, FaJira, FaUserCog, FaSalesforce, FaSass, FaDesktop } from 'react-icons/fa';
+import { FaCog, FaReact, FaJs, FaHtml5, FaCss3, FaBootstrap, FaNodeJs, FaDatabase, 
+         FaBitbucket, FaSourcetree, FaJira, FaUserCog, FaSalesforce, FaSass, FaDesktop,
+         FaStar, FaStarHalfAlt, FaRegStar } from 'react-icons/fa';
 
 export default function Skills() {
     return (
@@ -11,22 +13,33 @@ export default function Skills() {
                 <Col lg={4}>
                     <h5>Front-end Technologies</h5>
                     <ul>
-                        <li><FaReact />&nbsp;React Js</li>
-                        <li><FaJs />&nbsp;JavaScript</li>
-                        <li><FaHtml5 />&nbsp;HTML5</li>
-                        <li><FaCss3 />&nbsp;CSS3</li>
-                        <li><FaBootstrap />&nbsp;Bootstrap3</li>
-                        <li><FaSass />&nbsp;SASS</li>
-                        <li><FaDesktop />&nbsp;Responsive web design</li>
+                        <li><FaReact />&nbsp;React Js<br/>
+                        <span><FaStar/><FaStar/><FaStar/><FaStar/><FaRegStar/></span></li>
+                        <li><FaJs />&nbsp;JavaScript<br/>
+                        <span><FaStar/><FaStar/><FaStar/><FaStarHalfAlt/><FaRegStar/></span></li>
+                        <li><FaHtml5 />&nbsp;HTML5<br/>
+                        <span><FaStar/><FaStar/><FaStar/><FaStar/><FaRegStar/></span></li>
+                        <li><FaCss3 />&nbsp;CSS3<br/>
+                        <span><FaStar/><FaStar/><FaStar/><FaStar/><FaRegStar/></span></li>
+                        <li><FaBootstrap />&nbsp;Bootstrap3<br/>
+                        <span><FaStar/><FaStar/><FaStar/><FaStarHalfAlt/><FaRegStar/></span></li>
+                        <li><FaSass />&nbsp;SASS<br/>
+                        <span><FaStar/><FaStar/><FaStar/><FaStar/><FaRegStar/></span></li>
+                        <li><FaDesktop />&nbsp;Responsive web design<br/>
+                        <span><FaStar/><FaStar/><FaStar/><FaStar/><FaRegStar/></span></li>
                     </ul>
                 </Col>
                 <Col lg={4}>
                     <h5>Back-end Technologies</h5>
                     <ul>
-                        <li><FaJs />&nbsp;Express Js</li>
-                        <li><FaDatabase />&nbsp;MongoDB</li>
-                        <li><FaNodeJs />&nbsp;Node JS</li>
-                        <li><FaSalesforce />&nbsp;Salesforce Commerce Cloud</li>
+                        <li><FaJs />&nbsp;Express Js<br/>
+                        <span><FaStar/><FaStar/><FaStar/><FaStarHalfAlt/><FaRegStar/></span></li>
+                        <li><FaDatabase />&nbsp;MongoDB<br/>
+                        <span><FaStar/><FaStar/><FaStar/><FaStarHalfAlt/><FaRegStar/></span></li>
+                        <li><FaNodeJs />&nbsp;Node JS<br/>
+                        <span><FaStar/><FaStar/><FaStar/><FaStarHalfAlt/><FaRegStar/></span></li>
+                        <li><FaSalesforce />&nbsp;Salesforce Commerce Cloud<br/>
+                        <span><FaStar/><FaStar/><FaStar/><FaStarHalfAlt/><FaRegStar/></span></li>
                     </ul>
                 </Col>
                 <Col lg={4}>

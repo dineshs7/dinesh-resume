@@ -16,12 +16,12 @@ export default function Experience() {
                     <Col className="text-left" xs={9} md={10}>
                         <h3>UI Developer</h3>
                         <h4>
-                            SearchnScore Solution<br/>
+                            SearchnScore Solutions<br/>
                             <small>Sep 2019 to Present</small> <br />
                             <small>Coimbatore, Tamilnadu.</small>
                         </h4>
                         <p>
-                            Worked on eCommerce website for beauty products using Salesforce Commerce Cloud(SFCC) platform, 
+                            Worked on various eCommerce website for beauty products using Salesforce Commerce Cloud(SFCC) platform, 
                             Email template and Proof of Concept using ReactJS and Salesforce Open Commerce API(OCAPI).
                         </p>
                     </Col>

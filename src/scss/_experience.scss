@@ -11,13 +11,16 @@ Experience section
     padding: 10vh 0 12vh;
     height: auto;
     clip-path: polygon(0 10vh, 0 100%, 100% 92vh, 100% 0);
-    @include respond(small-landscape) {
-        padding: 10vh 0 14vh;
-        clip-path: polygon(0 10vh, 0 100%, 100% 202vh, 100% 0);
+    @include respond(xsmall) {
+        padding: 10vh 0 15vh;
+        clip-path: polygon(0 10vh, 0 100%, 100% 255vh, 100% 0);
+    }
+    @include respond(small) {
+        clip-path: polygon(0 10vh, 0 100%, 100% 100%, 100% 0);
     }
     @include respond(medium) {
-        padding-bottom: 10vh;
-        clip-path: polygon(0 10vh, 0 100%, 100% 60vh, 100% 0);
+        padding-bottom: 17vh;
+        clip-path: polygon(0 10vh, 0 100%, 100% 90%, 100% 0);
     }
     @include respond(large) {
         height: 100vh;

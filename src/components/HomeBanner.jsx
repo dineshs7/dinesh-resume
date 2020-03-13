@@ -12,7 +12,7 @@ export default function HomeBanner() {
                     <h3>UI Developer at SearchnScore Solutions</h3>
                     <h4>Coimbatore, Tamilnadu, India</h4>
                 </div>
-                <div className="social-links">
+                <div className="social-links" >
                     <a href ="https://www.linkedin.com/in/dinesh-selvam-370870a7/" target="_blank" rel="noopennr noreferrer" title="Visit my profile"><FaLinkedin /></a>
                     <a href="mailto:s.dineshcomputer@gmail.com" target="_blank" rel="noopennr noreferrer" title="Send a mail to me"><FaEnvelope /></a>
                     <FaPhone />&nbsp;+91 9095556283

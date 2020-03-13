@@ -7,18 +7,31 @@ About Section
 
 .about {
     height: auto;
-    padding-top: 7vh;
-    @include respond(medium) {
-        padding-top: 0;
-    }
     @include respond(large) {
         padding-top: 5vh;
         height: 100vh;
     }
+    .profile {
+        @include respond(small-only ){
+            transform: translateY(-15vh);
+        }
+        #name {
+            @include respond(small-only) {
+                text-align: center;
+            }
+            h1, h3, h4 {
+                @include respond(xsmall) {
+                    display: none;
+                }
+            }
+        }
+    }
     img {
         border: 1.8vw $white solid;
         border-radius: 50%;
-        transform: translate(12vw,-41vw);
+        @include respond(xsmall) {
+            transform: translateX(-1vw);
+        }
         @include respond(small) {
             border: 1.2vw $white solid;
             transform: translate(-1vw, -1vw);

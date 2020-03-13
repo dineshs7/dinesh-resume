@@ -12,22 +12,23 @@ Home Banner
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    @include respond(small) {
+    @include respond(xsmall) {
         height: 100vh;
     }
     @include respond(medium) {
         background-attachment: fixed;
     }
     .profile {
-        @include respond(small-only) {
-            color: $black;
-            transform: translateY(80vw);
+        display: none;
+        @include respond(xsmall) {
+            display: block;
+            color: $white;
         }
         @include respond(small-landscape) {
             transform: translate(1vw, 16vw);
         }
         @include respond(medium) {
-            transform: translateY(60vw);
+            transform: translateY(40vh);
         }
         @include respond(large) {
             transform: translateY(45vh);
@@ -41,11 +42,11 @@ Home Banner
     }
     .social-links {
         display: none;
-        @include respond(small-landscape) {
+        @include respond(xsmall) {
             font-size: 3vw;
             width: 40vw;
             display: block;
-            transform: translate(55vw,45vh);
+            transform: translate(55vw,40vh);
         }
         @include respond(medium) {
             display: block;
