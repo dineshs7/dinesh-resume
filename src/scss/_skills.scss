@@ -7,10 +7,9 @@ Skills section
 .skills {
     text-transform: uppercase;
     height: auto;
-    padding: 4vh 0;
+    padding: 10vh 0 4vh;
     @include respond(large) {
         height: 100vh;
-        padding-bottom: 0;
     }
     ul {
         padding-left: 0;

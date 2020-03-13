@@ -8,23 +8,10 @@ Experience section
 .experience {
     background: linear-gradient(to right bottom, rgba(211,16,39, 0.8), $red);
     color: $white;
-    padding: 10vh 0 12vh;
+    padding: 10vh 0 4vh;
     height: auto;
-    @include respond(xsmall) {
-        padding: 10vh 0 15vh;
-        clip-path: polygon(0 10vh, 0 100%, 100% 255vh, 100% 0);
-    }
-    @include respond(small) {
-        clip-path: polygon(0 10vh, 0 100%, 100% 100%, 100% 0);
-    }
-    @include respond(medium) {
-        padding-bottom: 17vh;
-        clip-path: polygon(0 10vh, 0 100%, 100% 90%, 100% 0);
-    }
     @include respond(large) {
         height: 100vh;
-        clip-path: polygon(0 10vh, 0 100%, 100% 90vh, 100% 0);
-        padding-bottom: 0;
     }
     img {
         max-width: 100%;;

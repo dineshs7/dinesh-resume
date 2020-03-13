@@ -15,7 +15,7 @@ export default function Projects() {
                             By default contact list is in ascending order with conatct</p>
                     </Col>
                 </Row>
-            </Container>>
+            </Container>
         </Container>
     );
 }

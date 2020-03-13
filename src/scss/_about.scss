@@ -7,8 +7,11 @@ About Section
 
 .about {
     height: auto;
-    @include respond(small) {
+    @include respond(xsmall) {
         padding-top: 10vh;
+    }
+    @include respond(medium) {
+        padding-top: 0;
     }
     @include respond(large) {
         padding-top: 5vh;

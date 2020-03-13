@@ -16,12 +16,10 @@ export default function About() {
                             <h4>Coimbatore, Tamilnadu, India</h4>
                             </div>
                             <p>Hi there,<br/><br/>
-                            I'm really excited to introduce myself. 
-                            I was born in a small village in Salem district, Tamilnadu in 1996.
+                            I was born in Ammapet city in Salem district, Tamilnadu in 1996.
                             I started my schooling back in 2001 and completed my higher secondary in 2013. 
                             In 2013 July, I joined Thiagarajar Polytechnic College-Salem, Tamilnadu for my Diploma course in 
                             Computer Engineering and completed my Diploma with 96.5% in 2015.
-                            Wait! the journey of my education life is not yet over. 
                             It was 2015 July, I joined PSG College of Technology-Coimbatore, Tamilnadu, for my Bachelor's degree in 
                             Information Technology and completed my Bachelor's degree with 7.53 CGPA in 2018.
                             Those were beautiful days, I enjoyed my hostel life more than college life. 

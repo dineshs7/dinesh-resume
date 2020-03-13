@@ -6,11 +6,10 @@ Education section
 @import './variables';
 
 .education {
-    padding: 4vh 0;
+    padding: 10vh 0 4vh;
     height: auto;
     @include respond(large) {
         height: 100vh;
-        padding-bottom: 0;
     }
     img {
         max-width: 100%;;
