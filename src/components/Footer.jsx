@@ -9,8 +9,8 @@ export default function Footer() {
                 <a href="#education">Education</a>
                 <a href="#projects">Projects</a>
                 <a href="#skills">Skills</a>
-                <a href ="https://www.linkedin.com/in/dinesh-selvam-370870a7/" target="_blank"><FaLinkedin /></a>
-                <a href="mailto:s.dineshcomputer@gmail.com" target="_blank"><FaEnvelope /></a>
+                <a href ="https://www.linkedin.com/in/dinesh-selvam-370870a7/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+                <a href="mailto:s.dineshcomputer@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope /></a>
             </div>
     )
 }

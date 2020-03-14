@@ -8,9 +8,6 @@ Education section
 .education {
     padding: 10vh 0 4vh;
     height: auto;
-    @include respond(large) {
-        height: 100vh;
-    }
     img {
         max-width: 100%;;
     }

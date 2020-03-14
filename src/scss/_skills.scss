@@ -8,9 +8,6 @@ Skills section
     text-transform: uppercase;
     height: auto;
     padding: 10vh 0 4vh;
-    @include respond(large) {
-        height: 100vh;
-    }
     ul {
         padding-left: 0;
         li {

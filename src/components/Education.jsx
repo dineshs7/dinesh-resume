@@ -21,10 +21,6 @@ export default function Education() {
                             <small>Coimbatore, Tamilnadu.</small>
                         </h4>
                         <p>7.53 CGPA</p>
-                        <p>PROJECTS:<br/>
-                       - Hostel Management System using MEAN Stack <br/>
-                       - Student Info Desk user interface using HTML, CSS and Javascript
-                       </p>
                     </Col>
                 </Row>
             </Container>
@@ -41,9 +37,6 @@ export default function Education() {
                             <small>Salem, Tamilnadu.</small>
                         </h4>
                         <p>96.5%</p>
-                        <p>PROJECTS: <br/>
-                        - Time Table Generator using Visual basics and MS Access <br/>
-                        - Android Remote controller</p>
                     </Col>
                 </Row>
             </Container>

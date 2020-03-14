@@ -15,7 +15,6 @@ About Section
     }
     @include respond(large) {
         padding-top: 5vh;
-        height: 100vh;
     }
     .profile {
         @include respond(small-only ){

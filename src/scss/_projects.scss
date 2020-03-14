@@ -9,7 +9,24 @@ Project section
     color: $white;
     padding: 10vh 0 4vh;
     height: auto;
-    @include respond(large) {
-        height: 100vh;
+    a {
+    	font-size: 1rem;
+    	font-weight: 300;
+    	color: $white;
+    	vertical-align: middle;
+    }
+    ul {
+    	li {
+    		list-style-type: none;
+    		position: relative;
+    		padding-left: 0.8rem;
+    		&::before {
+    			content: "\002D";
+    			font-weight: bold;
+    			position: absolute;
+    			left: 0;
+    			top: -0.1rem;
+    		}
+    	}
     }
 }

@@ -13,8 +13,8 @@ export default function HomeBanner() {
                     <h4>Coimbatore, Tamilnadu, India</h4>
                 </div>
                 <div className="social-links" >
-                    <a href ="https://www.linkedin.com/in/dinesh-selvam-370870a7/" target="_blank" rel="noopennr noreferrer" title="Visit my profile"><FaLinkedin /></a>
-                    <a href="mailto:s.dineshcomputer@gmail.com" target="_blank" rel="noopennr noreferrer" title="Send a mail to me"><FaEnvelope /></a>
+                    <a href ="https://www.linkedin.com/in/dinesh-selvam-370870a7/" target="_blank" rel="noopener noreferrer" title="Visit my profile"><FaLinkedin /></a>
+                    <a href="mailto:s.dineshcomputer@gmail.com" target="_blank" rel="noopener noreferrer" title="Send a mail to me"><FaEnvelope /></a>
                     <FaPhone />&nbsp;+91 9095556283
                 </div>
         </Container>
