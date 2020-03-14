@@ -16,7 +16,7 @@ export default function About() {
                             <h4>Coimbatore, Tamilnadu, India</h4>
                             </div>
                             <p>Hi there,<br/><br/>
-                            I was born in Ammapet city in Salem district, Tamilnadu in 1996.
+                            I was born in Ammapet in Salem district, Tamilnadu in 1996.
                             I started my schooling back in 2001 and completed my higher secondary in 2013. 
                             In 2013 July, I joined Thiagarajar Polytechnic College-Salem, Tamilnadu for my Diploma course in 
                             Computer Engineering and completed my Diploma with 96.5% in 2015.

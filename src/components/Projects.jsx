@@ -51,7 +51,7 @@ export default function Projects() {
                     </Col>
                     <Col className="text-left" xs={12} md={6}>
                         <h3>Blogs&nbsp;<a href="https://www.seacalmskin.com/blog.html" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /></a></h3>
-                        <p>Mobile first responsive and SEO friedly main blog landing page and 4 blog pages.</p>
+                        <p>Mobile first responsive and SEO friendly main blog landing page and 4 blog pages.</p>
                         <h5>Technology used</h5>
                         <ul>
                             <li>HTML5</li>

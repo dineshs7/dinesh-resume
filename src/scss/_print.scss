@@ -1,0 +1,105 @@
+.home-banner, .footer-navigation {
+	@include respond(print) {
+		display: none;
+	}
+}
+.experience, .projects {
+	@include respond(print) {
+		color: inherit;
+		background: inherit;
+	}
+}
+.experience, .education {
+	.text-left {
+		@include respond(print) {
+			border: none;
+		}
+	}
+}
+.experience, .projects, .education, .skills, .about {
+	@include respond(print) {
+		padding: 0;
+	}
+}
+.projects {
+	.col-md-6 {
+		@include respond(print) {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+	}
+}
+body {
+	@include respond(print) {
+		font-size: 24px !important;
+	}
+}
+h1 {
+	@include respond(print) {
+		font-size: 48px !important;
+	}
+}
+h2, h3, h4, h5, h6 {
+	@include respond(print) {
+		font-size: 28px !important;
+		margin: 0;
+	}
+}
+.skills {
+	@include respond(print) {
+		text-transform: inherit !important;
+	}
+	span {
+		@include respond(print) {
+			padding: 0;
+			display: none;
+		}
+		svg {
+			@include respond(print) {
+				margin: 0;
+			}
+		}
+	}
+}
+.about {
+	#name {
+		@include respond(print) {
+			margin-bottom: 20px;
+		}
+		&::after {
+			@include respond(print) {
+				content: '';
+				clear: both;
+				display: table;
+			}
+		}
+		img {
+			@include respond(print) {
+				float: right;
+			}
+		}
+	}
+	p {
+		@include respond(print) {
+			margin: 0;
+		}
+	}
+	.objectives, .strengths {
+		@include respond(print) {
+			margin-top: 0;
+		}
+		ul {
+			li {
+				@include respond(print) {
+					list-style-type: disc !important;
+					padding-left: 0 !important;
+				}
+				&::before {
+					@include respond(print) {
+						content: '' !important;
+					}
+				}
+			}
+		}
+	}
+}

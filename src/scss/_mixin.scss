@@ -32,6 +32,10 @@ $small-landscape: 47.938em;     // 767px
 
   @else if $media == small-landscape {
     @media only screen and (max-width: $small-landscape ) and (orientation: landscape) { @content; }
-}
+  }
+
+  @else if $media == print {
+    @media print { @content; }
+  }
   
 }
